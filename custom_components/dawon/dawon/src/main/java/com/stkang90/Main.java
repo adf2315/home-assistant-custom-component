@@ -102,7 +102,7 @@ public class Main {
         mqttIp = sc.next();
         if (mqttIp == null || mqttIp.length() == 0) {
             System.out.println("[오류] - MQTT 서버 주소 미입력");
-            return false;
+            return false;ㄴ
         }
 
         System.out.println("MQTT 서버 포트를 입력하세요. (기본값: 1883)");
